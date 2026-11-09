@@ -1,0 +1,11 @@
+{
+  "name": "vault-four-tilde",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts",
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  },
+  "engines": { "node": ">=22.18.0" },
+  "license": "MIT"
+}

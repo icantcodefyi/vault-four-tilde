@@ -1,0 +1,9 @@
+docs/
+jailbreak-the-vault-01-kit/
+kit.tar.gz
+artifacts/
+node_modules/
+.env
+.env.*
+*.tar.gz
+*.bundle
