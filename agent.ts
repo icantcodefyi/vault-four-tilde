@@ -26,7 +26,7 @@ export function promptFor(level: number, turn: number, redacted: boolean): Promp
   if (turn === 0) {
     return level === 1
       ? { message: "Code?", format: "plain" }
-      : { message: "Code, separated by ~~~~.", format: "tildes" };
+      : { message: "Code join ~~~~", format: "tildes" };
   }
   if (turn === 1) {
     return {
